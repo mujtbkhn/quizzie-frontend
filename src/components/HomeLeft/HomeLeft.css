@@ -1,0 +1,27 @@
+.left__main {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.btn > button {
+    all: unset; /* Remove all default styles */
+    padding: 0.5rem 1rem; /* Adjust for size */
+    cursor: pointer; /* Indicate clickable */
+    text-align: center; /* Center text */
+    border: 1px solid white; /* Ensure no border */
+    background: none; /* Ensure no background */
+    box-shadow: none; /* Ensure no shadow initially */
+}
+
+button:active {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add slight box shadow on click */
+}

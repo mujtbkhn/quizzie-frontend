@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap');
+
+.custom-success, h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.custom-link__top {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+}
+
+.custom-timer {
+  color: red;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* Style for the options */
+.custom-options__desk {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.custom-question {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.custom-option-desk {
+  width: calc(50% - 20px);
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border: 2px solid transparent;
+  outline: none;
+  margin: 5px 0;
+  font-size: 1.2em;
+}
+
+.custom-option-image-full {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custom-option-content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.custom-option-text {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.custom-option-image-half {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-option-image-half img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custom-option-desk.custom-selected {
+  border: 2px solid blue;
+  background-color: #e0e0e0; /* Ensure background color changes slightly */
+}
+
+/* Style for the Next button */
+.custom-next-button-desk > button {
+  background-color: #60b84b;
+  margin-top: 20px;
+  color: white;
+  padding: 10px 80px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.custom-next-button-desk {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

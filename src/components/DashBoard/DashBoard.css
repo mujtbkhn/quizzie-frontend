@@ -1,0 +1,71 @@
+.dashboard__main > h1 {
+    padding: 0 5rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 6rem;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.box:first-child {
+    color: #ff6209;
+}
+
+.box:nth-last-child(2) {
+    color: #6fbe5c;
+}
+
+.box:nth-last-child(1) {
+    color: #5076ff;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.trending__quizzes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+    padding: 0.5rem 1.5rem;
+    margin: 1rem;
+    border-radius: 10px;
+    width: 200px; /* Adjust the width as needed */
+    text-align: center; /* Center align text */
+}
+
+.trending__quizzes img {
+    color: orange;
+}
+
+.trending__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.trending__quizzes > .date {
+    color: #6fbe5c;
+    font-size: 0.875rem; /* Adjust font size as needed */
+    margin-top: 0.5rem; /* Adjust margin as needed */
+}
+
+.trending__main {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+}
