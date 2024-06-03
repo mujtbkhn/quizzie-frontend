@@ -3,7 +3,7 @@ import { getUserIdFromToken } from "./analytics";
 
 const token = localStorage.getItem("token");
 
-const BACKEND_URL = "http://localhost:3000/api/v1/quiz";
+const BACKEND_URL = "https://quizzie-backend-yrss.onrender.com/quiz";
 
 export const createQuiz = async (title, quizzes) => {
   try { 

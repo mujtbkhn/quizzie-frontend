@@ -2,7 +2,7 @@ import axios from "axios";
 import { jwtDecode } from "jwt-decode";
 import { v4 as uuidv4 } from "uuid";
 
-const URL = `http://localhost:3000/api/v1/analytics`;
+const URL = `https://quizzie-backend-yrss.onrender.com/analytics`;
 
 export const getUserIdFromToken = () => {
   const token = localStorage.getItem("token");

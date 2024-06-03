@@ -3,7 +3,7 @@ import { getUserIdFromToken } from "./analytics";
 
 const token = localStorage.getItem("token");
 
-const BACKEND_URL = "http://localhost:3000/api/v1/poll";
+const BACKEND_URL = "https://quizzie-backend-yrss.onrender.com/poll";
 
 export const createPoll = async (title, polls) => {
   try {

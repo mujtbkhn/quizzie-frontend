@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BACKEND_URL = "http://localhost:3000/api/v1/auth";
+const BACKEND_URL = "https://quizzie-backend-yrss.onrender.com/auth";
 
 export const registerUser = async (name, email, password) => {
   try {
